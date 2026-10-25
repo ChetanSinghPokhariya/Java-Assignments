@@ -4,6 +4,7 @@ public class evenOddSum {
         Scanner sc= new Scanner(System.in);
         System.out.print("How many numbers: ");
         int n=sc.nextInt();
+        sc.close();
         int evenSum=0;
         int oddSum=0;
         for ( int i=1;i<=n;i++){

@@ -5,6 +5,7 @@ public class factorialofNumber {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number: ");
         int num = sc.nextInt();
+        sc.close();
         int fact=1;
         for(int i = num;i>0;i--){
             fact*=i;
